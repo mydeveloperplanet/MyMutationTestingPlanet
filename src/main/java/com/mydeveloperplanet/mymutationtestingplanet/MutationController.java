@@ -19,4 +19,10 @@ public class MutationController {
         return message;
     }
 
+    @GetMapping("/increment/{value}")
+    public int increment(@PathVariable int value) {
+        value++;
+        return value;
+    }
+
 }
