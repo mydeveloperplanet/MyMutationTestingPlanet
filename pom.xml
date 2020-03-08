@@ -48,6 +48,11 @@
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
                 <version>1.5.0</version>
+                <configuration>
+                    <outputFormats>
+                        <outputFormat>xml</outputFormat>
+                    </outputFormats>
+                </configuration>
                 <dependencies>
                     <dependency>
                         <groupId>org.pitest</groupId>
