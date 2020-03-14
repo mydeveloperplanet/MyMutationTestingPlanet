@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>MyMutationTestingPlanet</name>
-    <description>Demo project for Skaffold</description>
+    <description>Demo project for Mutation Testing</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
